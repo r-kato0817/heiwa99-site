@@ -3,3 +3,7 @@
     flex-direction: column;
     align-items: center;
 }
+.content .second-half {
+    width: 100%;
+    max-width: 480px;
+}
