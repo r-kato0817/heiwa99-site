@@ -1,3 +1,25 @@
+body {
+    background: #f9f9f9;
+    color: #303030;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #4e4e4e;
+    padding: 1rem 1rem;
+}
+.header img {
+    border: 0;
+    vertical-align: middle;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto, "Hiragino Kaku Gothic ProN", HiraKakuPro-W3, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    margin: 3rem auto 0;
+    color: #777777;
+}
 .content .first-half {
     display: flex;
     flex-direction: column;
@@ -6,4 +28,16 @@
 .content .second-half {
     width: 100%;
     max-width: 480px;
+}
+.content .line {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+.content .img {
+    width: unset;
+    margin: 3rem auto;
+}
+.content .img img {
+    border: 0;
+    object-fit: cover;
 }
